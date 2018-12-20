@@ -1,0 +1,45 @@
+1413861270: /home1/mardecks/public_html/MMrequirementProbe-qKsa9QOpOp.php startup
+[20-Oct-2014 21:14:30] PHP Notice:  Undefined index:  max in /home1/mardecks/public_html/MMrequirementProbe-qKsa9QOpOp.php on line 391
+1413861339: /home1/mardecks/public_html/ssv3_payload_extractor-A9JbiRWafV.php startup
+1413863783: /home1/mardecks/public_html/MMrequirementProbe-LnG9n0fIQK.php startup
+[20-Oct-2014 21:56:23] PHP Notice:  Undefined index:  max in /home1/mardecks/public_html/MMrequirementProbe-LnG9n0fIQK.php on line 391
+[21-Apr-2015 16:44:13] PHP Warning:  copy(/home1/mardecks/public_html/wp-content/upgrade/wordpress-4.tmp/wordpress/wp-includes/version.php) [<a href='function.copy'>function.copy</a>]: failed to open stream: No such file or directory in /home1/mardecks/public_html/wp-admin/includes/class-wp-filesystem-direct.php on line 217
+[04-Sep-2015 12:50:39] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 12:50:45] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 12:51:05] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 12:51:12] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 12:51:14] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 12:51:17] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 12:51:53] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 12:52:25] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 12:52:32] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 12:52:34] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 12:52:36] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 12:52:38] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 12:52:50] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 12:52:59] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 12:53:08] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 12:53:12] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 12:53:13] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 12:54:28] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 12:54:29] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 13:00:58] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 13:00:58] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 13:00:58] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 13:01:04] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 13:01:30] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 13:01:55] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 13:03:47] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 13:04:13] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 13:04:15] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 13:04:20] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/new_site/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 13:20:28] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 13:21:11] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 13:21:20] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 13:21:21] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 13:21:21] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 13:21:22] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 13:22:06] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+[04-Sep-2015 13:22:07] PHP Fatal error:  Call to undefined method WPSEO_Frontend::get_instance() in /home1/mardecks/public_html/wp-content/plugins/wordpress-seo/inc/wpseo-functions.php on line 17
+1441506694: /home1/mardecks/public_html/ssv3_backup_payload-LV6C5SpbLc.php startup
+1441506726: /home1/mardecks/public_html/ssv3_payload_extractor-iVNVXa88nr.php startup

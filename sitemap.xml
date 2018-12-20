@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://mardecks.com/</loc>
+  <lastmod>2018-12-18T20:51:45+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://mardecks.com/index.html</loc>
+  <lastmod>2018-12-18T20:51:45+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://mardecks.com/about.html</loc>
+  <lastmod>2018-12-16T20:37:42+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mardecks.com/gallery.html</loc>
+  <lastmod>2018-12-16T21:16:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mardecks.com/floors.html</loc>
+  <lastmod>2018-12-15T01:56:16+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://mardecks.com/decks.html</loc>
+  <lastmod>2018-12-18T20:46:46+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://mardecks.com/pressurewash.html</loc>
+  <lastmod>2018-12-15T01:35:40+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://mardecks.com/generalremodel.html</loc>
+  <lastmod>2018-12-15T01:35:42+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://mardecks.com/requestquote.html</loc>
+  <lastmod>2018-12-15T01:21:19+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://mardecks.com/testimony.html</loc>
+  <lastmod>2018-12-15T01:21:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://mardecks.com/contact.html</loc>
+  <lastmod>2018-12-15T01:21:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

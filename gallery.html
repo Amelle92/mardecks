@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/faviconID.ico" type="image/x-icon">
+    <link rel="icon" href="images/faviconID.ico" type="image/x-icon">
+
+    <title>MARDECK'S</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/gallery/photoswipe.css">
+    <link rel="stylesheet" href="css/gallery/default-skin.css">
+
+  <style>
+    figure {
+      display: inline-block;
+      width: 33.333%;
+      float: left;
+      margin: 0 0 0 0;
+      padding: 3px 3px 3px 3px;
+    }
+    .spacer {height: 5em;}
+  </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/navbar.js"></script>
+
+  </head>
+
+  <body background ="images/bg6.jpg">
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar navbar-dark fixed-top navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img id="logo" class="fluid" src="images/Logo.png" alt="" height=70px></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html"><strong><span class="white">About</span></strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html"><strong><span class="white">Gallery</span></strong></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <strong><span class="white">Services</span></strong>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                <a class="dropdown-item" href="floors.html"><strong>Floors</strong></a>
+                <a class="dropdown-item" href="decks.html"><strong>Decks</strong></a>
+                <a class="dropdown-item" href="pressurewash.html"><strong>Pressure Wash</strong></a>
+                <a class="dropdown-item" href="generalremodel.html"><strong>General Remodel</strong></a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="requestquote.html"><strong><span class="white">Request Quote</span></strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="testimony.html"><strong><span class="white">Testimonials</span></strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"><strong><span class="white">Contact</span></strong></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="content" class="container-fluid" style="background-color: black;">
+      <div class="row p-0 ml-0 mr-0" style="background-color: black; margin-top: 20px;">
+        <div class="col-md-2 text-center" style="background-color: black;"></div>
+        <div class="col-md-2 text-center" style="background-color: black;">
+            <a href="#" id="btn1" class="galbtn galbtnactive p-0 m-0" onclick="setActiveBtn(this,'Floors');"><strong><span class="white">Floors</span></strong></a>
+        </div>
+        <div class="col-md-2 text-center" style="background-color: black;">
+            <a href="#" id="btn2" class="galbtn" onclick="setActiveBtn(this, 'Decks');"><strong><span class="white">Decks</span></strong></a>
+        </div>
+        <div class="col-md-2 text-center" style="background-color: black;">
+            <a href="#" id="btn3" class="galbtn" onclick="setActiveBtn(this, 'PressureWash');"><strong><span class="white">Pressure Wash</span></strong></a>
+        </div>
+        <div class="col-md-2 text-center" style="background-color: black;">
+            <a href="#" id="btn4" class="galbtn" onclick="setActiveBtn(this, 'GeneralRemodel');"><strong><span class="white">General Remodel</span></strong></a>
+        </div>
+        <div class="col-md-2 text-center" style="background-color: black;"></div>
+      </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="container" style="margin-top: 3px;">
+      <div class="row">
+        <div class="col-lg-12">
+          <div id="gallery" class="gallery">
+              <figure class="Floors">
+                <photo><a href="images/Gallery/Floors/0.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/Floors/0.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="Floors">
+                <photo><a href="images/Gallery/Floors/1.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/Floors/1.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="Floors">
+                <photo><a href="images/Gallery/Floors/2.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/Floors/2.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="Floors">
+                <photo><a href="images/Gallery/Floors/3.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/Floors/3.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="Floors">
+                <photo><a href="images/Gallery/Floors/4.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/Floors/4.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="Floors">
+                <photo><a href="images/Gallery/Floors/5.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/Floors/5.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="Floors">
+                <photo><a href="images/Gallery/Floors/6.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/Floors/6.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="">
+                </a></photo>
+              </figure>
+              <figure class="Floors">
+                <photo><a href="images/Gallery/Floors/7.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/Floors/7.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="">
+                </a></photo>
+              </figure>
+              <figure class="Floors">
+                <photo><a href="images/Gallery/Floors/8.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/Floors/8.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="">
+                </a></photo>
+              </figure>
+              <figure class="Floors">
+                <photo><a href="images/Gallery/Floors/9.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/Floors/9.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="">
+                </a></photo>
+              </figure>
+            <!--Decks-->
+              <figure class="Decks hideform">
+                <photo><a href="images/Gallery/Decks/0.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/Decks/0.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="Decks hideform">
+                <photo><a href="images/Gallery/Decks/1.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/Decks/1.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="Decks hideform">
+                <photo><a href="images/Gallery/Decks/2.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/Decks/2.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="Decks hideform">
+                <photo><a href="images/Gallery/Decks/3.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/Decks/3.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="Decks hideform">
+                <photo><a href="images/Gallery/Decks/4.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/Decks/4.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="Decks hideform">
+                <photo><a href="images/Gallery/Decks/5.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/Decks/5.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="Decks hideform">
+                <photo><a href="images/Gallery/Decks/6.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/Decks/6.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="">
+                </a></photo>
+              </figure>
+              <figure class="Decks hideform">
+                <photo><a href="images/Gallery/Decks/7.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/Decks/7.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="">
+                </a></photo>
+              </figure>
+              <!--PressureWash-->
+              <figure class="PressureWash hideform">
+                <photo><a href="images/Gallery/PressureWash/0.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/PressureWash/0.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="PressureWash hideform">
+                <photo><a href="images/Gallery/PressureWash/1.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/PressureWash/1.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="PressureWash hideform">
+                <photo><a href="images/Gallery/PressureWash/2.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/PressureWash/2.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="PressureWash hideform">
+                <photo><a href="images/Gallery/PressureWash/3.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/PressureWash/3.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="PressureWash hideform">
+                <photo><a href="images/Gallery/PressureWash/4.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/PressureWash/4.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="PressureWash hideform">
+                <photo><a href="images/Gallery/PressureWash/5.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/PressureWash/5.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="PressureWash hideform">
+                <photo><a href="images/Gallery/PressureWash/6.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/PressureWash/6.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="">
+                </a></photo>
+              </figure>
+              <figure class="PressureWash hideform">
+                <photo><a href="images/Gallery/PressureWash/7.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/PressureWash/7.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="">
+                </a></photo>
+              </figure>
+            <!--GeneralRemodel-->
+              <figure class="GeneralRemodel hideform">
+                <photo><a href="images/Gallery/GeneralRemodel/0.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/GeneralRemodel/0.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="GeneralRemodel hideform">
+                <photo><a href="images/Gallery/GeneralRemodel/1.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/GeneralRemodel/1.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure class="GeneralRemodel hideform">
+              <figure class="GeneralRemodel hideform">
+                <photo><a href="images/Gallery/GeneralRemodel/2.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/GeneralRemodel/2.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="GeneralRemodel hideform">
+                <photo><a href="images/Gallery/GeneralRemodel/3.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/GeneralRemodel/3.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="GeneralRemodel hideform">
+                <photo><a href="images/Gallery/GeneralRemodel/4.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/GeneralRemodel/4.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="GeneralRemodel hideform">
+                <photo><a href="images/Gallery/GeneralRemodel/5.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/GeneralRemodel/5.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="Image description">
+                </a></photo>
+              </figure>
+              <figure class="GeneralRemodel hideform">
+                <photo><a href="images/Gallery/GeneralRemodel/6.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/GeneralRemodel/6.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="">
+                </a></photo>
+              </figure>
+              <figure class="GeneralRemodel hideform">
+                <photo><a href="images/Gallery/GeneralRemodel/7.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/GeneralRemodel/7.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="">
+                </a></photo>
+              </figure>
+              <figure class="GeneralRemodel hideform">
+                <photo><a href="images/Gallery/GeneralRemodel/8.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/GeneralRemodel/8.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="">
+                </a></photo>
+              </figure>
+              <figure class="GeneralRemodel hideform">
+                <photo><a href="images/Gallery/GeneralRemodel/9.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/GeneralRemodel/9.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="">
+                </a></photo>
+              </figure>
+              <figure class="GeneralRemodel hideform">
+                <photo><a href="images/Gallery/GeneralRemodel/10.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/GeneralRemodel/10.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="">
+                </a></photo>
+              </figure>
+              <figure class="GeneralRemodel hideform">
+                <photo><a href="images/Gallery/GeneralRemodel/11.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/GeneralRemodel/11.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="">
+                </a></photo>
+              </figure>
+              <figure class="GeneralRemodel hideform">
+                <photo><a href="images/Gallery/GeneralRemodel/12.jpg" data-width="1200" data-height="900" itemprop="contentUrl">
+                  <img src="images/Gallery/GeneralRemodel/12.jpg" class="rounded img-fluid shadow" itemprop="thumbnail" alt="">
+                </a></photo>
+              </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Some spacing 😉 -->
+    <div class="spacer"></div>
+
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- Background of PhotoSwipe.
+             It's a separate element as animating opacity is faster than rgba(). -->
+        <div class="pswp__bg"></div>
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+            <!-- Container that holds slides.
+                PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                Don't modify these 3 pswp__item elements, data is added later on. -->
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <!--  Controls are self-explanatory. Order can be changed. -->
+                    <div class="pswp__counter"></div>
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                    <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                    <!-- element will get class pswp__preloader - - active when preloader is running -->
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                          <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Import jQuery and PhotoSwipe Scripts -->
+    <!--<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>-->
+    <script src="js/gallery/photoswipe.min.js"></script>
+    <script src="js/gallery/photoswipe-ui-default.min.js"></script>
+
+    <script>
+      'use strict';
+      /* global jQuery, PhotoSwipe, PhotoSwipeUI_Default, console */
+      (function($){
+        // Init empty gallery array
+        var container = [];
+        // Loop over gallery items and push it to the array
+        $('#gallery').find('figure').each(function(){
+          var $link = $(this).find('a'),
+              item = {
+                src: $link.attr('href'),
+                w: $link.data('width'),
+                h: $link.data('height'),
+                title: $link.data('caption')
+              };
+          container.push(item);
+        });
+        // Define click event on gallery item
+        $('photo').click(function(event){
+          // Prevent location change
+          event.preventDefault();
+          // Define object and gallery options
+          var $pswp = $('.pswp')[0],
+              options = {
+                index: $(this).parent('figure').index(),
+                bgOpacity: 0.85,
+                showHideOpacity: true
+              };
+          // Initialize PhotoSwipe
+          var gallery = new PhotoSwipe($pswp, PhotoSwipeUI_Default, container, options);
+          gallery.init();
+        });
+      }(jQuery));
+    </script>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer id="foot" class="footer pt-2" style="background-color: black">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="m-0 text-center text-white">5806 Chase Commons CT, Burke, VA 22015 #105 - <span class="text-warning">703-924-5397</span> / services@<span class="text-warning">mardecks.com</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="m-0 text-center text-white"><small>&copy; 2018 MARDECK'S All Rights Reserved<small></p>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+      function setActiveBtn(elem, album) {
+        document.getElementById("btn1").classList.remove("galbtnactive");
+        document.getElementById("btn2").classList.remove("galbtnactive");
+        document.getElementById("btn3").classList.remove("galbtnactive");
+        document.getElementById("btn4").classList.remove("galbtnactive");
+        var floors = document.getElementsByClassName("Floors");
+        var decks = document.getElementsByClassName("Decks");
+        var generalremodel = document.getElementsByClassName("GeneralRemodel");
+        var pressurewash = document.getElementsByClassName("PressureWash");
+        var show;
+        for(var i = 0; i < floors.length; i++) {
+          floors[i].classList.add("hideform");
+        }
+        for(var i = 0; i < decks.length; i++) {
+          decks[i].classList.add("hideform");
+        }
+        for(var i = 0; i < generalremodel.length; i++) {
+          generalremodel[i].classList.add("hideform");
+        }
+        for(var i = 0; i < pressurewash.length; i++) {
+          pressurewash[i].classList.add("hideform");
+        }
+        elem.classList.add("galbtnactive");
+        if(album == "Floors") {
+          show = floors;
+        }
+        else if(album == "Decks") {
+          show = decks;
+        }
+        else if(album == "GeneralRemodel") {
+          show = generalremodel;
+        }
+        else if(album == "PressureWash"){
+          show = pressurewash;
+        }
+        for(var i = 0; i < show.length; i++) {
+          show[i].classList.remove("hideform");
+        }
+      }
+    </script>
+    <script src="js/gallery/photoswipe.js"></script>
+    <script src="js/gallery/photoswipe-ui-default.js"></script>
+
+  </body>
+
+</html>
